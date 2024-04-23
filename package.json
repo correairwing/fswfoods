@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "prisma": {
     "seed": "ts-node ./prisma/seed.ts"
@@ -15,6 +17,8 @@
     "@prisma/client": "^5.13.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "lucide-react": "^0.372.0",
     "next": "14.2.2",
     "react": "^18",
